@@ -1,0 +1,159 @@
+.main{
+    height: 400px;
+    width: 80%;
+    background-color:#3b4664;
+    margin: 10%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+
+.nav{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+.calc{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.rightnav{
+    display: grid;
+
+    grid-template-areas:
+    "theme number"
+    "theme slider";
+    grid-column-gap: 5px;
+    align-items: center;
+}
+.theme{
+    grid-area: theme;
+    font-size: 8px;
+
+}
+.numbers{
+    grid-area: number;
+    font-size: 10px;
+}
+.slider{
+    width: 22px;
+    height: 10px;
+    grid-area: slider;
+}
+
+
+.num{
+    display: flex;
+    color:white;
+    background-color: #191f32;
+    border-radius: 3px;
+    width: 35%;
+    height: 15%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.body{
+    background-color: #191f32;
+    width: 35%;
+    height: 40%;
+    border-radius: 3px;
+    margin-top: 3%;
+    display: grid;
+    grid-template-areas:
+    "seven eight nine del"
+    "four five six plus"
+    "one two three minus"
+    "dot zero divide muliply"
+    "reset reset equal equal";
+    padding: 1.5%;
+    gap: 1.5%;
+    
+    
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.del{
+    grid-area: del;
+    background-color: #647298;
+    color: white;
+    font-weight: bolder;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+.six{
+    grid-area: six;
+}
+.plus{
+    grid-area: plus;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.minus{
+    grid-area: minus;
+}
+.dot{
+    grid-area: dot;
+}
+.zero{
+    grid-area: 0;
+}
+.divide{
+    grid-area: divide;
+}
+.multiply{
+    grid-area: muliply;
+}
+.reset{
+    grid-area: reset;
+    background-color: #647298;
+    color: white;
+    font-weight: bolder;
+}
+.equal{
+    grid-area: equal;
+    background-color: #d13f30;
+    color: white;
+    font-weight: bolder;
+}
+
+.tan{
+    background-color:#e9e3dc;
+    color: #191f32;
+    font-weight: bolder;
+    
+}
+
+.body button{
+    border-radius: 10px;
+
+}
